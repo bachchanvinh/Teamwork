@@ -15,4 +15,6 @@ console.log(random)
 alert(Math.random().toFixed(2))
 
 //BAI 3
-
+// phan 1
+//phan 2
+// phan 3
