@@ -52,9 +52,10 @@ if(da == qrandom.dapan){
     alert("Dung")
     diem+=1
 }
-else if(da == "goiy"){
-    alert (`Dap an la `,qrandom.dapan)
+else if(da == "goiy"&&goiy==1&&da!=qrandom.dapan){
+    alert (`Dap an la `+qrandom.dapan)
     diem+=1
+    goiy=0
 }
 q.splice(q.indexOf(qrandom),1)
 n=n-1}
