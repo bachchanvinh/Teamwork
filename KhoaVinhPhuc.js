@@ -3,6 +3,12 @@
 //Khoa
 =======
 // Phúc test
+// 123 1
+12
+1
+23
+4
+test
 >>>>>>> 11c0df086d1ee64a74e7defa151c5669506ad5bc
 =======
 //Vinh
@@ -11,7 +17,7 @@ vcnxcnxbnxvbnxvb
 
 //Khoa
 123tnthnfthdfsdf
-
+fsdfdsfds
 gjufyk
 // Phúc test
 <<<<<<< HEAD
