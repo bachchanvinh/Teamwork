@@ -15,4 +15,3 @@ console.log(random)
 alert(Math.random().toFixed(2))
 
 //BAI 3
-
