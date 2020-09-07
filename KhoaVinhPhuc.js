@@ -32,11 +32,13 @@ let q = [
           dapan: 'a'
           }
 ]
+alert("Chơi trò chơi nào")
+let nhapten = prompt("Hãy nhập tên của bạn")
+let goiy = 1
 let diem = 0
 let n =3
 //phan 2
 // let question = q.question
-
 // console.log(qrandom)
 console.log(q)
 for(let i =0; i<3; i++){
@@ -45,7 +47,6 @@ for(let i =0; i<3; i++){
     console.log(qrandom)
     let da = prompt(qrandom.question)
     console.log(q)
-
 // phan 3
 if(da == qrandom.dapan){
     alert("Dung")
@@ -57,5 +58,4 @@ else if(da == "goiy"){
 }
 q.splice(q.indexOf(qrandom),1)
 n=n-1}
-
-alert("Chuc mung ban duoc "+diem+"/"+`3`)
+alert("Chuc mung " + nhapten +  " đã được" + diem + "/" + `3` )
