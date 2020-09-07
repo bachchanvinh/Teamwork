@@ -18,7 +18,7 @@ alert(Math.random().toFixed(2))
 // phan 1
 //phan 2
 // phan 3
-if(da == q.dapan){
+if(da == qrandom.dapan){
     alert("Dung")
     diem+=1
 }
