@@ -4,15 +4,15 @@
 // Array: [2, 5, 6, 9, 10]
 // First run: 5
 // Second run: 9
-let Array= [2, 5, 6, 9, 10]
-console.log(Array)
-let random = Math.floor(Math.random() * Array.length)
-console.log(random)
+// let Array= [2, 5, 6, 9, 10]
+// console.log(Array)
+// let random = Math.floor(Math.random() * Array.length)
+// console.log(random)
 
 
 //Phuc
 // 1.Learn how to create a random number from 0 to 1
-alert(Math.random().toFixed(2))
+// alert(Math.random().toFixed(2))
 
 //BAI 3
 // phan 1
@@ -33,17 +33,25 @@ let q = [
           }
 ]
 let diem = 0
-
+let n =3
 //phan 2
-let question = Q.question
-let qrandom = Math.floor(Math.random() * question.length)
-let da = promp(qrandom)
+// let question = q.question
+
+// console.log(qrandom)
+console.log(q)
+for(let i =0; i<3; i++){
+    
+    let qrandom = q[Math.floor(Math.random() * n)]
+    console.log(qrandom)
+    let da = prompt(qrandom.question)
+    console.log(q)
 
 // phan 3
 if(da == qrandom.dapan){
     alert("Dung")
     diem+=1
 }
-q.splice(q.indexof(qrandom),1)
+q.splice(q.indexOf(qrandom),1)
+n=n-1}
 
-alert("Chuc mung ban duoc "+diem+"/"+q.length)
+alert("Chuc mung ban duoc "+diem+"/"+`3`)
