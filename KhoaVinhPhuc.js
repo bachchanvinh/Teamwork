@@ -1,6 +1,3 @@
-//Vinh123
-
-
 //Khoa
 //Câu 2:2.Learn how to randomly pick an item from an array
 // For example:
@@ -16,3 +13,6 @@ console.log(random)
 //Phuc
 // 1.Learn how to create a random number from 0 to 1
 alert(Math.random().toFixed(2))
+
+//BAI 3
+
