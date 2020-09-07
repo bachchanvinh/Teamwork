@@ -31,8 +31,8 @@ let q = [
           question: " con gà mấy chân\na. 2\n b.4 ",
           dapan: 'a'
           }
-]
-alert("Chơi trò chơi nào")
+]// Them cau hoi
+alert("Chơi trò chơi nào")// Ghi the le dai ra
 let nhapten = prompt("Hãy nhập tên của bạn")
 let goiy = 1
 let diem = 0
@@ -43,9 +43,9 @@ let n =3
 console.log(q)
 for(let i =0; i<3; i++){
     
-    let qrandom = q[Math.floor(Math.random() * n)]
+    let qrandom = q[Math.floor(Math.random() * n)]// lenght 
     console.log(qrandom)
-    let da = prompt(qrandom.question)
+    let da = prompt(qrandom.question)// kiem tra nhap lieu
     console.log(q)
 // phan 3
 if(da == qrandom.dapan){
@@ -56,7 +56,7 @@ else if(da == "goiy"&&goiy==1&&da!=qrandom.dapan){
     alert (`Dap an la `+qrandom.dapan)
     diem+=1
     goiy=0
-}
+}// goi y khi nhap dap an sai
 q.splice(q.indexOf(qrandom),1)
 n=n-1}
 alert("Chuc mung " + nhapten +  " đã được" + diem + "/" + `3` )
