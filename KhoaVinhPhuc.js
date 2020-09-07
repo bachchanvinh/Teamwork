@@ -17,4 +17,8 @@ alert(Math.random().toFixed(2))
 //BAI 3
 // phan 1
 //phan 2
+let question = Q.question
+let qrandom = Math.floor(Math.random() * question.length)
+let da = promp(qrandom)
+
 // phan 3
