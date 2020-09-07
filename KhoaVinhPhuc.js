@@ -18,3 +18,10 @@ alert(Math.random().toFixed(2))
 // phan 1
 //phan 2
 // phan 3
+if(da == q.dapan){
+    alert("Dung")
+    diem+=1
+}
+q.splice(q.indexof(qrandom),1)
+
+alert("Chuc mung ban duoc "+diem+"/"+q.length)
