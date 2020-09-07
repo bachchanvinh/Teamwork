@@ -35,4 +35,15 @@ let q = [
 let diem = 0
 
 //phan 2
+let question = Q.question
+let qrandom = Math.floor(Math.random() * question.length)
+let da = promp(qrandom)
+
 // phan 3
+if(da == qrandom.dapan){
+    alert("Dung")
+    diem+=1
+}
+q.splice(q.indexof(qrandom),1)
+
+alert("Chuc mung ban duoc "+diem+"/"+q.length)
