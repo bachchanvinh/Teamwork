@@ -15,48 +15,12 @@
 // alert(Math.random().toFixed(2))
 
 //BAI 3
-// phan 1
-let q = [
-        
-          {
-              question : "Con chó sủa ra sao\na. gau gau\n b.cạp cạp" ,
-              dapan :  'a'
-
-          },
-          {
-              question: " con cho mấy chân\na. 3\n b.4 ",
-              dapan: 'b'
-          },
-          {
-          question: " con gà mấy chân\na. 2\n b.4 ",
-          dapan: 'a'
-          }
-]// Them cau hoi
-alert("Chơi trò chơi nào")// Ghi the le dai ra
-let nhapten = prompt("Hãy nhập tên của bạn")
-let goiy = 1
+//Bien
 let diem = 0
-let n =3
-//phan 2
-// let question = q.question
-// console.log(qrandom)
-console.log(q)
-for(let i =0; i<3; i++){
-    
-    let qrandom = q[Math.floor(Math.random() * n)]// lenght 
-    console.log(qrandom)
-    let da = prompt(qrandom.question)// kiem tra nhap lieu
-    console.log(q)
-// phan 3
-if(da == qrandom.dapan){
-    alert("Dung")
-    diem+=1
-}
-else if(da == "goiy"&&goiy==1&&da!=qrandom.dapan){
-    alert (`Dap an la `+qrandom.dapan)
-    diem+=1
-    goiy=0
-}// goi y khi nhap dap an sai
-q.splice(q.indexOf(qrandom),1)
-n=n-1}
-alert("Chuc mung " + nhapten +  " đã được" + diem + "/" + `3` )
+let username
+let q1 ={}
+let q2 ={}
+let chontrochoi
+//Tro choi 1
+
+//Tro choi 2
