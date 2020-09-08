@@ -17,7 +17,6 @@
 //BAI 3
 // phan 1
 let q = [
-        
           {
               question : "Con chó sủa ra sao\na. gau gau\n b.cạp cạp" ,
               dapan :  'a'
