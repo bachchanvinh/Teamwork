@@ -16,27 +16,6 @@
 
 //BAI 3
 // phan 1
-// let q = [
-//           {
-//               question : "Con chó sủa ra sao\na. gau gau\n b.cạp cạp" ,
-//               dapan :  'a'
-
-//           },
-//           {
-//               question: " con cho mấy chân\na. 3\n b.4 ",
-//               dapan: 'b'
-//           },
-//           {
-//           question: " con gà mấy chân\na. 2\n b.4 ",
-//           dapan: 'a'
-//           }
-// ]
-// let diem = 0
-// let username
-// let q1 ={}
-// let q2 ={}
-// let chontrochoi
-//Tro choi 1
 
 
 
