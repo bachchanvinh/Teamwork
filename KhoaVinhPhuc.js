@@ -181,3 +181,4 @@ for(let j = 0; j < m; j++){
 }
 
 console.log(diem)
+//ket thuc
