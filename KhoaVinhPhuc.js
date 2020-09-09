@@ -16,41 +16,28 @@
 
 //BAI 3
 // phan 1
-let q = [
-          {
-              question : "Con chó sủa ra sao\na. gau gau\n b.cạp cạp" ,
-              dapan :  'a'
+// let q = [
+//           {
+//               question : "Con chó sủa ra sao\na. gau gau\n b.cạp cạp" ,
+//               dapan :  'a'
 
-          },
-          {
-              question: " con cho mấy chân\na. 3\n b.4 ",
-              dapan: 'b'
-          },
-          {
-          question: " con gà mấy chân\na. 2\n b.4 ",
-          dapan: 'a'
-          }
-]
-let diem = 0
-let n =3
-//phan 2
-// let question = q.question
+//           },
+//           {
+//               question: " con cho mấy chân\na. 3\n b.4 ",
+//               dapan: 'b'
+//           },
+//           {
+//           question: " con gà mấy chân\na. 2\n b.4 ",
+//           dapan: 'a'
+//           }
+// ]
+// let diem = 0
+// let username
+// let q1 ={}
+// let q2 ={}
+// let chontrochoi
+//Tro choi 1
 
-// console.log(qrandom)
-console.log(q)
-for(let i =0; i<3; i++){
-    
-    let qrandom = q[Math.floor(Math.random() * n)]
-    console.log(qrandom)
-    let da = prompt(qrandom.question)
-    console.log(q)
 
-// phan 3
-if(da == qrandom.dapan){
-    alert("Dung")
-    diem+=1
-}
-q.splice(q.indexOf(qrandom),1)
-n=n-1}
 
-alert("Chuc mung ban duoc "+diem+"/"+`3`)
+//Tro choi 2
