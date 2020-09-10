@@ -97,7 +97,7 @@ if(chontrochoi == 1){//Tro choi 2
         }
     }
 }
-else if(chontrochoi==2){alert("AAA")}//Tro choi 2
+// else if(chontrochoi==2){alert("AAA")}//Tro choi 2
 }
 
 console.log("Bảng xếp hạng trò chơi trắc nghiệm\n"+"Hạng    "+"Người dùng           "+"Điểm")
@@ -115,8 +115,69 @@ for(let j = 0 ; j<array1.length; j++){
 
 
 //Tro choi 2
+else if( chontrochoi == '2'){
+    alert('Chúng ta bắt đầu phần thi tư duy nhé')
+q2 = [
+    
+    // câu 1
+    {
+        question: 'có bao nhiêu kiểu dữ liệu trong JS',
+        answer: 9
+    },
+    // câu 2
+    {
+        question: 'có tất cả bao nhiêu màu chính',
+        answer: 3
+    },
+    // câu 3
+    {
+        question: 'quốc khánh nước Việt Nam vào tháng mấy',
+        answer: 9
+    },
+    // câu 4
+    {
+        question: 'Viet Nam thống nhất năm bao nhiêu',
+        answer: 1975
+    },
+    
+    // câu 5
+    {
+        question: "Kiểu boolean trong JS gồm mấy giá trị ",
+        answer: 2
+    }
 
+] 
+const m = q2.length
+for(let j = 0; j < m; j++){
+    let q2random = q2[Math.floor(Math.random() * q2.length )]
+    console.log(q2random)
+    let qs2 = Number(prompt(q2random.question))
+   
+    if( qs2 == q2random.answer){
+        alert("Đúng")
+        diem += 1
+    }
+    else{
+        if(goiy == 0 ){
+    let goiy2 = prompt(" Sai rồi, Các bạn có 1 sự gợi ý các bạn có muốn dùng nó?\n Dùng Thì nhập Y\n Không dùng thì nhập N ").toLocaleLowerCase()
+            while(goiy2 !='y' && goiy2!='n'){
+        goiy2 = prompt(" Sai rồi, Các bạn có 1 sự gợi ý các bạn có muốn dùng nó?\n Dùng Thì nhập Y\n Không dùng thì nhập N ").toLocaleLowerCase()
+            }
+    if(goiy2 == 'y'){
+        alert(q2random.answer)
+        diem +=1
+        goiy = 1
+    }
+        }
+        else{
+            alert("Bạn mất điểm cái này rồi")    
+    }
+}
+    q2.splice(q2.indexOf(q2random), 1)    
 
+}
+}
+alert(diem)
 
 
 //ket thuc
