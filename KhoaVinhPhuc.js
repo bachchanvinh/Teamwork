@@ -37,19 +37,19 @@ if(chontrochoi == 1){//Tro choi 2
     
         },
         {
-          question: "Buổi sáng con gà gáy gì?\naÒ ó o o\nb.Ha ha",
+          question: "Buổi sáng con gà gáy gì?\na. Ò ó o o\nb.Ha ha",
           answer: 'a'
         },
         {
-          question: "aaaa\na. 2\n b.4 ",
+          question: "Quốc kì nước Việt Nam có hình gì ở giữa?\na. Ngôi sao \n b.Con chim ",
           answer: 'a'
         },
         {
-          question: " 4\na. 2\n b.4 ",
+          question: " Messi là cầu thủ bóng đá thế giới người nước nào? \na. Argentina\n b.Brazil ",
           answer: 'a'
         },
         {
-          question: " 5\na. 2\n b.4 ",
+          question: " Quả trứng có trước hay con gà có trước?\na. Con gà\n b. Quả trứng ",
           answer: 'a'
         }
             ]
@@ -103,23 +103,23 @@ else if( chontrochoi == 2){
   let goiy=1
   q2 = [ 
     {
-      question: 'Có bao nhiêu kiểu dữ liệu trong JS',
+      question: 'Có bao nhiêu kiểu dữ liệu trong JS?',
       answer: 9
     },
     {
-      question: 'Có tất cả bao nhiêu màu cơ bản',
+      question: 'Có tất cả bao nhiêu màu cơ bản?',
       answer: 3
     },
     {
-      question: 'Quốc khánh nước Việt Nam vào tháng mấy',
+      question: 'Quốc khánh nước Việt Nam vào tháng mấy?',
       answer: 9
     },
     {
-      question: 'Viet Nam thống nhất năm bao nhiêu',
+      question: 'Việt Nam thống nhất năm bao nhiêu?',
       answer: 1975
     },
     {
-      question: "Kiểu boolean trong JS gồm mấy giá trị ",
+      question: "Kiểu boolean trong JS gồm mấy giá trị? ",
       answer: 2
     }
   ] 
