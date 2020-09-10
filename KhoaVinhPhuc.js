@@ -118,3 +118,4 @@ for(let j = 0 ; j<array1.length; j++){
 
 
 //ket thuc
+// 10 tháng 9 2020
